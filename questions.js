@@ -147,7 +147,22 @@ const b ="1,2";
        console.log(arr.sort((a,b)=> a-b));
        console.log(arr.sort((a,b)=> b-a));
 
+//--------------------------------------------------------
 
+function mergeAlternately(str1, str2) {
+        let merged = "";
+        let maxLength = Math.max(str1.length, str2.length);
+    
+        for (let i = 0; i < maxLength; i++) {
+            if (i < str1.length) merged += str1[i];
+            if (i < str2.length) merged += str2[i];
+        }
+        return merged;
+    }
+    
+    // Example Usage
+    console.log(mergeAlternately("abc", "12345")); // Output: "a1b2c345"
+    console.log(mergeAlternately("hello", "world")); // Output: "hweolrllod"
         
 
 
