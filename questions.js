@@ -144,8 +144,8 @@ const b ="1,2";
        //sort array to assending order descending order
        let arr= [100,5,9,400,88,];
 
-       // console.log(arr.sort((a,b)=> a-b));
-     //  console.log(arr.sort((a,b)=> b-a));
+       // console.log(arr.sort((a,b)=> a-b)); //[5,9,88,100,400];
+     //  console.log(arr.sort((a,b)=> b-a)); //[400,100,88,9,5];
 
 //--------------------------------------------------------
 
