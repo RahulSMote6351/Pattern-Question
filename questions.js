@@ -144,8 +144,8 @@ const b ="1,2";
        //sort array to assending order descending order
        let arr= [100,5,9,400,88,];
 
-       console.log(arr.sort((a,b)=> a-b));
-       console.log(arr.sort((a,b)=> b-a));
+       // console.log(arr.sort((a,b)=> a-b));
+     //  console.log(arr.sort((a,b)=> b-a));
 
 //--------------------------------------------------------
 
@@ -159,15 +159,6 @@ function mergeAlternately(str1, str2) {
         }
         return merged;
     }
-    
-    // Example Usage
-    console.log(mergeAlternately("abc", "12345")); // Output: "a1b2c345"
-    console.log(mergeAlternately("hello", "world")); // Output: "hweolrllod"
-        
-
-
-
-
-
-
-
+    // console.log(mergeAlternately("abc", "12345")); // Output: "a1b2c345"
+   // console.log(mergeAlternately("hello", "world")); // Output: "hweolrllod"
+  
